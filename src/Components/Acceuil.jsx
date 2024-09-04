@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react";
 import BlogCard from "./CardBlog";
 import Menu from "./Menu";
+import Footer from "../Components/Footer.jsx"
 
 const Acceuil = () => {
   const [articles, setArticles] = useState([]);
@@ -40,6 +41,7 @@ const Acceuil = () => {
           <BlogCard loading={loading} articles={articles} error={error} onDelete={handleDelete}/>
         </div>
       </div>
+        <Footer />
     </div>
   );
 };

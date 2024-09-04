@@ -4,6 +4,7 @@ import Acceuil from './Components/Acceuil';
 import CardBlog from './Components/CardBlog';
 import Contact from './Components/Contact';
 import Menu from './Components/Menu';
+import CreatePost from './Components/CreatePost';
 
 const App = () => {
   return (
@@ -14,6 +15,7 @@ const App = () => {
           <Route path="/" element={<Acceuil />} />
           <Route path="/blogs" element={<CardBlog />} />
           <Route path="/contact" element={<Contact />} />
+          <Route path="/post" element={<CreatePost />} />
         </Routes>
       </div>
     </Router>

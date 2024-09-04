@@ -21,6 +21,12 @@ const Menu = () => {
           >
             Contact
           </Link>
+          <Link
+            to="/post"
+            className="text-white hover:text-gray-400 transition-colors duration-300"
+          >
+            Post
+          </Link>
         </div>
       </div>
     </nav>
