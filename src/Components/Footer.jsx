@@ -9,26 +9,6 @@ const Footer = () => {
           <h2 className="text-lg font-semibold">Mon Blog</h2>
           <p className="text-sm">© 2024 Mon Blog. Tous droits réservés.</p>
         </div>
-        <div className="flex space-x-4">
-          <Link
-            to="/blogs"
-            className="text-white hover:text-gray-400 transition-colors duration-300"
-          >
-            Blogs
-          </Link>
-          <Link
-            to="/contact"
-            className="text-white hover:text-gray-400 transition-colors duration-300"
-          >
-            Contact
-          </Link>
-          <Link
-            to="/contact"
-            className="text-white hover:text-gray-400 transition-colors duration-300"
-          >
-            Créer un article
-          </Link>
-        </div>
       </div>
     </footer>
   );

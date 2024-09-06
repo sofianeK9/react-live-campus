@@ -5,6 +5,7 @@ import CardBlog from './Components/CardBlog';
 import Contact from './Components/Contact';
 import Menu from './Components/Menu';
 import CreatePost from './Components/CreatePost';
+import FAQ from './Components/Faq';
 
 const App = () => {
   return (
@@ -16,6 +17,7 @@ const App = () => {
           <Route path="/blogs" element={<CardBlog />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="/post" element={<CreatePost />} />
+          <Route path="/faq" element={<FAQ />} />
         </Routes>
       </div>
     </Router>
